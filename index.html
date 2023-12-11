@@ -2,6 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -34,12 +35,34 @@
           <a href="#" target="_blank" class="form__forgot-pass"
             >Esqueceu a senha?</a
           >
-          <a href="#" target="_blank" class="form__register-link">
+          <a target="_blank" class="form__register-link">
             Ainda não tem conta? Cadastre-se aqui!
           </a>
           <button class="form__login-btn">Entrar</button>
+
+          <dialog class="modalContainer">
+
+            <div class="divContainer">
+
+              <input class="inputModal" type="text" placeholder="Nome">
+              <input class="inputModal" type="text" placeholder="Sobrenome">
+              <input class="inputModal" type="text" placeholder="Celular ou E-mail">
+              <input class="inputModal" type="text" placeholder="Sua senha">
+            
+            <div class="footer">
+
+              <button class="buttonClose">Fechar Model</button>
+              <button class="buttonRegister">Cadastrar</button>
+
+            </div>
+
+            
+          </div>
+        </dialog>
         </form>
       </div>
     </main>
+
+    <script src="script.js"></script>
   </body>
 </html>

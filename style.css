@@ -1,0 +1,57 @@
+
+dialog{
+    
+    padding: 0px;
+
+    width: 500px;
+    height: 400px;
+}
+
+.divContainer{
+
+   width: 500px;
+   height: 400px;
+
+   background-color: rgb(195, 195, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+dialog::backdrop{
+    background-color: rgba(0,0,0, 0.6);
+}
+
+.inputModal{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(238, 234, 234);
+    padding: 5px;
+    
+}
+
+.inputModal:focus{
+    border: none;
+    outline: 1px solid #3d36ba;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttonClose{
+    padding: 13px;
+    border-radius: 8px;
+}
+
+.buttonRegister{
+    padding: 13px;
+    background-color: rgb(99, 99, 230) ;
+    border-radius: 8px;
+}
+
